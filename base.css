@@ -1,0 +1,226 @@
+/* CLIENT-SPECIFIC STYLES */
+#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+body, table, td, a{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+/* RESET STYLES */
+body{margin:0; padding:0;}
+img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;display: block;}
+table{border-collapse:collapse !important;}
+body{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+/* iOS BLUE LINKS */
+.appleBody a, .appleFooter a {color:#222222; text-decoration: none;}
+
+/* PRE-HEADER STYLES */
+.hidden-preheader {display: none; font-size: 1px; color: #FFFFFF; line-height: 1px; font-family: Helvetica, Arial, sans-serif; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;}
+.preheader {font-size: 10px; font-family: Helvetica, Arial, sans-serif; color: #222222; padding-top: 15px;text-transform:uppercase;}
+.preheader a {color: #222222;}
+
+/* LOGO */
+.logo {padding: 30px 0;}
+
+/* HIGHLIGHT BAR */
+.hb-title {color:#FFFFFF;font-size:12px;font-family:Arial;text-transform:uppercase;padding-left:20px;padding-top:10px;padding-bottom:10px;}
+
+/* FIXED BUTTONS */
+.button {font-size: 12px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #000000; text-decoration: none; background-color: #fce082; border-top: 10px solid #fce082; border-bottom: 10px solid #fce082; border-left: 20px solid #fce082; border-right: 20px solid #fce082;display: inline-block;text-transform:uppercase;font-weight:bold;}
+.button-reverse {font-size: 12px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #fce082; text-decoration: none; background-color: #000000; border-top: 10px solid #000000; border-bottom: 10px solid #000000; border-left: 20px solid #000000; border-right: 20px solid #000000;display: inline-block;text-transform:uppercase;font-weight:bold;}
+
+/* BUTTON PADDING */
+/* Originally only for mobile; if old button is used, then comment out. */
+td.mobile-button-pad {
+	padding-right: 20px !important;
+}
+
+/* FULL-WIDTH BUTTONS */
+table.full-button {width: 100%;overflow: hidden;}
+table.full-button td {box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; display: block; width: auto !important; text-align: center; background: #000000; border: 1px solid #000000; color: #fce082; padding: 8px 8px; line-height: initial !important;}
+table.full-button td a {font-weight: bold; text-decoration: none; font-family: Helvetica, Arial, sans-serif; color: #fce082; font-size: 12px; display: block; height: 100%; width: 100%; text-transform: uppercase;}
+table.full-button-reverse {width: 100%;overflow: hidden;}
+table.full-button-reverse td {box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; display: block; width: auto !important; text-align: center; background: #000000; border: 1px solid #000000; color: #fce082; padding: 8px 8px; line-height: initial !important;}
+table.full-button-reverse td a {font-weight: bold; text-decoration: none; font-family: Helvetica, Arial, sans-serif; color: #fce082; font-size: 12px; display: block; height: 100%; width: 100%; text-transform: uppercase;}
+
+/* WRAPPERS */
+.wrap-body-content {padding: 30px 80px 20px;}
+.wrap-body-button {padding:0 0 40px;}
+.wrap-when-where {padding: 20px 80px 20px;}
+
+/* IMAGES THAT YOU WANT TO SCALE */
+.img-hero {width:600px; height:322px;}
+
+/* BODY CONTENT */
+.paragraph {padding-top: 15px; font-size: 12px; line-height: 20px; font-family: Helvetica, Arial, sans-serif; color: #222222;}
+.hr {padding: 20px 80px 0;}
+
+/* SOCIAL MEDIA LINKS */
+.social {padding:10px;text-transform:uppercase;font-family:Helvetica, Arial, sans-serif;font-size:10px;}
+.social-link {color:#252525;text-decoration:none;}
+
+/* FOOTER */
+.footer-wrap {font-size: 10px; line-height: 18px; font-family: Helvetica, Arial, sans-serif; color:#222222;}
+.footer-wrap-bottom {padding-top:10px;padding-bottom:15px;}
+.footer-copy {color:#222222;text-transform:uppercase;}
+
+/* Image Padding */
+.center {
+	padding-left: 10%;
+}
+
+/* Root Table Wrapper */
+/* This class corrects rendering in the Android GMail App */
+table.root-table {
+	width: 100% !important;
+	min-width: 100% !important;
+	height: auto !important;
+}
+
+/* MOBILE STYLES */
+@media screen and (max-width: 525px) {
+
+	/* ALLOWS FOR FLUID TABLES */
+	table[class="wrapper"]{	
+	  width:100% !important;
+	}
+
+	/* ADJUSTS LAYOUT OF IMAGE FOR CENTERING IMAGE IN TWO COLUMN LAYOUT*/
+	img[class="center"]{
+	  padding-left: 20% !important;
+	  padding-bottom: 0% !important;
+	}
+
+	span[class="paragraph"] {
+		padding: 100% 1% 1% 1% !important;
+	}
+
+	/* ADJUSTS LAYOUT OF LOGO IMAGE */
+	td[class="logo"]{
+	  text-align: left;
+	  padding: 20px 0 20px 0 !important;
+	}
+
+	td[class="logo"] img{
+	  margin:0 auto!important;
+	}
+
+	/* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+	td[class="mobile-hide"]{
+	  display:none;}
+
+	img[class="mobile-hide"]{
+	  display: none !important;
+	}
+
+	img[class="img-max"]{
+	  max-width: 100% !important;
+	  height:auto !important;
+	}
+
+	/* FULL-WIDTH TABLES */
+	table[class="responsive-table"]{
+	  width:100%!important;
+	}
+
+	/* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */
+
+	td[class="padding"]{
+	  padding: 10px 5% 15px 5% !important;
+	}
+
+	td[class="padding-copy"]{
+	  padding: 10px 5% 10px 5% !important;
+	  text-align: left;
+	}
+
+	td[class="padding-heading"]{
+	  padding: 10px 5% 10px 5% !important;
+	  text-align: center;
+	}
+
+	td[class="padding-meta"]{
+	  padding: 30px 5% 0px 5% !important;
+	  text-align: center;
+	}
+
+	td[class="padding-hero"]{
+	  padding:0 15px; !important;
+	}
+
+	td[class="no-pad"]{
+	  padding: 0 0 20px 0 !important;
+	}
+
+	td[class="no-padding"]{
+	  padding: 0 !important;
+	}
+
+	td[class="section-padding"]{
+	  padding:0 15px !important;
+	}
+
+	td[class="section-padding-bottom-image"]{
+	  padding: 50px 15px 0 15px !important;
+	}
+
+	td[class="preheader"]{
+	  padding: 20px 20px 0 !important;
+	}
+
+	td[class="img-extra-logo"]{
+	  padding-top: 20px !important;
+	}
+
+	/* ADJUST BUTTONS ON MOBILE */
+	td[class="mobile-wrapper"]{
+		padding: 10px 5% 15px 5% !important;
+	}
+
+	table[class="mobile-button-container"]{
+		margin:0 auto;
+		width:100% !important;
+	}
+
+	a[class="mobile-button"]{
+		width:100% !important;
+		padding: 10px 12px !important;
+		border: 0 !important;
+		font-size: 12px !important;
+	}
+
+	/* If Old RSVP button is used, un-comment:
+
+	td[class="mobile-button-pad"]{
+		padding-right: 20px !important;
+	}
+
+	*/
+}
+
+/* UNIVERSITY AND FACULTY COLOURS */
+
+.school-gold {color: #FCD450;}
+.school-red {color: #96172E;}
+.ahs {color:#009AA6;}
+.arts {color: #E98300;}
+.engineering {color: #57068C;}
+.environment {}
+.math {color: #E0249A;}
+.science {color: #0073CF;}
+
+.button.ahs {}
+.button.arts {}
+.button.engineering {}
+.button.environment {}
+.button.math {}
+.button.science {}
+
+/* CUSTOM */
+
+.when {padding-bottom:10px;font-family: Helvetica, Arial, sans-serif;font-size:16px;text-transform:uppercase;font-weight:bold;}
+.when-copy {padding: 0 0 10px 25px; font-size: 12px;line-height:18px; font-family: Helvetica, Arial, sans-serif; font-weight: normal;}
+.where {padding:0;font-family: Helvetica, Arial, sans-serif;font-size:16px;text-transform:uppercase;font-weight:bold;}
+.where-copy {padding: 0 0 5px 25px; font-size: 12px;line-height:18px; font-family: Helvetica, Arial, sans-serif; font-weight: normal;}
+.lede {font-size: 18px; line-height: 28px;}

@@ -224,3 +224,9 @@ table.root-table {
 .where {padding:0;font-family: Helvetica, Arial, sans-serif;font-size:16px;text-transform:uppercase;font-weight:bold;}
 .where-copy {padding: 0 0 5px 25px; font-size: 12px;line-height:18px; font-family: Helvetica, Arial, sans-serif; font-weight: normal;}
 .lede {font-size: 18px; line-height: 28px;}
+
+/* DOUBLE CHEVRON LIST STYLING */
+
+.chevron-list {/* IN HTML PLACE THIS CHARACTER AFTER EACH <li>:  &#187; */
+	list-style: none; margin: 0; padding-left: 1em; text-indent: -1em;
+}

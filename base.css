@@ -27,8 +27,8 @@ body{height:100% !important; margin:0; padding:0; width:100% !important;}
 .hb-title {color:#FFFFFF;font-size:12px;font-family:Arial;text-transform:uppercase;padding-left:20px;padding-top:10px;padding-bottom:10px;}
 
 /* FIXED BUTTONS */
-.button {font-size: 12px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #000000; text-decoration: none; background-color: #fce082; border-top: 10px solid #fce082; border-bottom: 10px solid #fce082; border-left: 20px solid #fce082; border-right: 20px solid #fce082;display: inline-block;text-transform:uppercase;font-weight:bold;}
-.button-reverse {font-size: 12px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #fce082; text-decoration: none; background-color: #000000; border-top: 10px solid #000000; border-bottom: 10px solid #000000; border-left: 20px solid #000000; border-right: 20px solid #000000;display: inline-block;text-transform:uppercase;font-weight:bold;}
+.button {font-size: 12px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #000000; text-decoration: none; background-color:#FCD450; border-top: 10px solid #FCD450; border-bottom: 10px solid #FCD450; border-left: 20px solid #FCD450; border-right: 20px solid #FCD450;display: inline-block;text-transform:uppercase;font-weight:bold;}
+.button-reverse {font-size: 12px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #FCD450; text-decoration: none; background-color: #000000; border-top: 10px solid #000000; border-bottom: 10px solid #000000; border-left: 20px solid #000000; border-right: 20px solid #000000;display: inline-block;text-transform:uppercase;font-weight:bold;}
 
 /* BUTTON PADDING */
 /* Originally only for mobile; if old button is used, then comment out. */
@@ -38,11 +38,11 @@ td.mobile-button-pad {
 
 /* FULL-WIDTH BUTTONS */
 table.full-button {width: 100%;overflow: hidden;}
-table.full-button td {box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; display: block; width: auto !important; text-align: center; background: #000000; border: 1px solid #000000; color: #fce082; padding: 8px 8px; line-height: initial !important;}
-table.full-button td a {font-weight: bold; text-decoration: none; font-family: Helvetica, Arial, sans-serif; color: #fce082; font-size: 12px; display: block; height: 100%; width: 100%; text-transform: uppercase;}
+table.full-button td {box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; display: block; width: auto !important; text-align: center; background: #000000; border: 1px solid #000000; color: #FCD450; padding: 8px 8px; line-height: initial !important;}
+table.full-button td a {font-weight: bold; text-decoration: none; font-family: Helvetica, Arial, sans-serif; color: #FCD450; font-size: 12px; display: block; height: 100%; width: 100%; text-transform: uppercase;}
 table.full-button-reverse {width: 100%;overflow: hidden;}
-table.full-button-reverse td {box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; display: block; width: auto !important; text-align: center; background: #000000; border: 1px solid #000000; color: #fce082; padding: 8px 8px; line-height: initial !important;}
-table.full-button-reverse td a {font-weight: bold; text-decoration: none; font-family: Helvetica, Arial, sans-serif; color: #fce082; font-size: 12px; display: block; height: 100%; width: 100%; text-transform: uppercase;}
+table.full-button-reverse td {box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; display: block; width: auto !important; text-align: center; background: #000000; border: 1px solid #000000; color: #FCD450; padding: 8px 8px; line-height: initial !important;}
+table.full-button-reverse td a {font-weight: bold; text-decoration: none; font-family: Helvetica, Arial, sans-serif; color: #FCD450; font-size: 12px; display: block; height: 100%; width: 100%; text-transform: uppercase;}
 
 /* WRAPPERS */
 .wrap-body-content {padding: 30px 80px 20px;}

@@ -43,6 +43,9 @@ table.full-button td a {font-weight: bold; text-decoration: none; font-family: H
 table.full-button-reverse {width: 100%;overflow: hidden;}
 table.full-button-reverse td {box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; display: block; width: auto !important; text-align: center; background: #000000; border: 1px solid #000000; color: #FCD450; padding: 8px 8px; line-height: initial !important;}
 table.full-button-reverse td a {font-weight: bold; text-decoration: none; font-family: Helvetica, Arial, sans-serif; color: #FCD450; font-size: 12px; display: block; height: 100%; width: 100%; text-transform: uppercase;}
+table.full-button-reverse-reverse {width: 100%;overflow: hidden;}
+table.full-button-reverse-reverse td {box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; display: block; width: auto !important; text-align: center; background: #FCD450; border: 1px solid #FCD450; color: #000000; padding: 8px 8px; line-height: initial !important;}
+table.full-button-reverse-reverse td a {font-weight: bold; text-decoration: none; font-family: Helvetica, Arial, sans-serif; color: #000000; font-size: 12px; display: block; height: 100%; width: 100%; text-transform: uppercase;}
 
 /* WRAPPERS */
 .wrap-body-content {padding: 30px 80px 20px;}
